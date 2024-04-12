@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/*Header*/
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 160px;
+    background-color: #ffffff;
+ }
+
+ #logo{
+    width: 200px;
+    height: auto;
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+ }
+
+ nav a{
+    margin-right: 40px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #333333;
+ }
+
+ #search-bar {
+    width: 170px;
+    margin-right: 20px;
+    padding: 10px 30px 10px 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: #ededed;
+    font-style: italic;
+    text-align: right;
+ }
+
+ .searchbar{
+    position: relative;
+ }
+
+ .searchbar img{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 20px;
+    transform: translateY(-50%);
+ }
+
+ #login-btn{
+    display: flex;
+    align-items: center;
+    right: 0;
+    width: 160px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background: linear-gradient(to right, #c934d2, #3c2c9f);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.3em;
+ }
+
+ #login-btn img{
+    width: 30px;
+    margin-right: 10px;
+ }
+
+ /*Hero*/
+
+ .hero-section{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 630px;
+    padding: 30px 0 20px 160px;
+ }
+
+ .text-column{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+ }
+
+ .text-column .subheading{
+    padding-bottom: 2px;
+    font-size: 1.3em;
+ }
+
+ .text-column .subheading span{
+    color: #2bffe6;
+ }
+
+
+ .text-column .heading {
+    font-size: 3.00em;
+    font-weight: 800;
+    line-height: normal;
+ }
+
+ .text-column p{
+    font-size: 1.1em;
+    color: #b0aeae;
+ }
+ 
+ .text-column .underline{
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    border: 3px 0 #2bffe6;
+ }
+
+ .image-column{
+    flex-shrink: 0;
+    right: 0;
+ }
+
+ .image-column img{
+    width: 500px;
+    height: 560px;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+ }
+
+ .image-column .rectangle{
+    background: linear-gradient(to right, #c934d2, #3c2c9f);
+    width: 570px;
+    height: 380px;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 40px 0 40px 40px;
+    opacity: 0.7;
+ }
+
+ .image-column  .large-circle{
+    background-color: #ffffff;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 25%;
+    right: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(15, 15, 15, 0.5);
+ }
+
+ .social-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    padding: 6px;
+    background: linear-gradient(to top, #c934d2, #3c2c9f);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+
+ .social-icons .icon img {
+    width: 26px;
+    filter: invert(1);
+ }
+
+ .social-icons .icon:first-child {
+    margin-top: 30px;
+ }
+
+ .social-icons .icon {
+    margin-bottom: 20px;
+ }
+
+ .cards {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 160px;
+ }
+
+ .card {
+    width: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(15, 15, 15, 0.5);
+ }
+
+ .card img {
+    width: 38px;
+ }
+
+ .card .card-text{
+    margin-left: 10px;
+ }
+
+ .card .card-text h5{
+    margin: 0;
+ }
+
+ .card .card-text p{
+    font-size: 0.93em;
+ }
+
+ .circle{
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(15, 15, 15, 0.5);
+ }
+
+ .top-left{
+    left: -44px;
+    top: -30px;
+ }
+
+ .bottom-left{
+    left: 0;
+    bottom: -60px;
+ }
+
+ .middle-right{
+    right: -60px;
+    top: 30%;
+    transform: translateY(-50%);
+ }
+
+ .center{
+    left: 60%;
+    top: 35%;
+    transform: translate(-50%, - 50%);
+ }
